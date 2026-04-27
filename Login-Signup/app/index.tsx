@@ -29,6 +29,9 @@ export default function index() {
         <MyButton title="Login" onPress={onloginPress} />
         <MyButton title="Signup" onPress={onSignupPress} />
 
+      <Link href='/calculator' style={{ marginTop: 20 , padding: 10, backgroundColor: 'lightblue', borderRadius: 5}}>
+        <Text style={{ color: 'blue'}}>Calculator</Text>
+      </Link>
     </View>
   )
 }
