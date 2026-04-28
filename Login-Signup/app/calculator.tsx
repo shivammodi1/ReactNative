@@ -1,19 +1,17 @@
 import { View, Text, TextInput, TouchableOpacity, StyleSheet } from 'react-native'
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 
 const Calculator = () => {
   const [num1, setNum1] = useState("")
   const [num2, setNum2] = useState("")
   const [result, setResult] = useState(0)
 
-  useEffect(() => {
-    const handleAdd = () => {
-      // hume phale num1 ans num2 ko float me convert 
-      // krke add krna hoga kyuki by default textinput se jo value aati hai wo string hoti hai
-      const sum = parseFloat(num1) + parseFloat(num2)
-      setResult(sum || 0)
-    }
-  }, [num1, num2]);
+  const handleAdd = () => {
+    // hume phale num1 ans num2 ko float me convert 
+    // krke add krna hoga kyuki by default textinput se jo value aati hai wo string hoti hai
+    const sum = parseFloat(num1) + parseFloat(num2)
+    setResult(sum || 0)
+  }
 
   return (
     <View style={styles.container}>

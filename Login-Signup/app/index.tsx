@@ -32,6 +32,13 @@ export default function index() {
       <Link href='/calculator' style={{ marginTop: 20 , padding: 10, backgroundColor: 'lightblue', borderRadius: 5}}>
         <Text style={{ color: 'blue'}}>Calculator</Text>
       </Link>
+      <Link href='/scrollView' style={{ marginTop: 20 , padding: 10, backgroundColor: 'lightblue', borderRadius: 5}}>
+        <Text style={{ color: 'blue'}}>ScrollView</Text>
+      </Link>
+
+      <Link href='/FlatList' style={{ marginTop: 20 , padding: 10, backgroundColor: 'lightblue', borderRadius: 5}}>
+        <Text style={{ color: 'blue'}}>FlatList</Text>
+      </Link>
     </View>
   )
 }
