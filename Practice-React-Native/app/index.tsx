@@ -39,6 +39,12 @@ export default function index() {
       <Link href='/FlatList' style={{ marginTop: 20 , padding: 10, backgroundColor: 'lightblue', borderRadius: 5}}>
         <Text style={{ color: 'blue'}}>FlatList</Text>
       </Link>
+
+      <Link href='/model' style={{ marginTop: 20 , padding: 10, backgroundColor: 'lightblue', borderRadius: 5}}>
+        <Text style={{ color: 'blue'}}>Model</Text>
+      </Link>
+      
+
     </View>
   )
 }
