@@ -85,7 +85,7 @@ export default function ScrollExample() {
           </View>
         )}
 
-        //  yah toh grid ke form me items show kr lo yah horizontal scroll kr lo 1 sath dono `options nahi chal sakte`
+        //  yah toh grid ke form me items show kr lo3 yah horizontal scroll kr lo 1 sath dono `options nahi chal sakte`
         numColumns={3} // 3 columns me items ko arrange karega
         // horizontal={true} // FlatList bhi horizontal scroll kar sakta hai
         showsHorizontalScrollIndicator={false} // scroll bar hide
